@@ -10,7 +10,7 @@ body {
 }
 
 /* ログインボックスのスタイル */
-.loginBox {
+.ContentBox {
   width: 300px;
   background-color: white;
   padding: 30px;

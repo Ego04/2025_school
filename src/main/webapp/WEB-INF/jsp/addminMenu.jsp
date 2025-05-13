@@ -4,19 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>AddminMenu</title>
 
 <link href="main.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="ContentBox">
-	<h1>Login</h1>
-	<form action="Login" method="post" >
-		UserID:<input type="text"id="input1" name="id"><br>	
-		Password:<input type="text"id="input2" name="password"><br>
-		<input type="submit" value="Login">
-	</form>
+	<h1>Addmin's Home Menu</h1>
+	<button>Add Staff</button>
+	<button>Staff List</button>
+	<button>Hospital List</button>
+	<button>Logout</button>
 </div>
 
 </body>
