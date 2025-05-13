@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+
+form{
+	
+	border: 2px rgb(43, 43, 43) solid;
+}
+
+.loginBox{
+	
+	width: 50%;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+input{
+	border:10%
+}
+
+h1{
+	text-align: center;
+}
+
+button{
+	
+}
+
+header{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 113, 115);
+}
+
+body{
+	justify-content: center;
+	background-color: rgb(192, 192, 192);
+}
+input{
+	border-style:solid;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: rgb(0, 0, 0);
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
