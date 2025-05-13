@@ -1,82 +1,54 @@
 @charset "UTF-8";
-
-
-
-form{
-	
-	border: 2px rgb(43, 43, 43) solid;
+/* 背景と中央寄せの設定 */
+body {
+  background-color: #eeeeee; /* 明るめのグレー背景に変更（画像に近づける） */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.loginBox{
-	
-	width: 50%;
-	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-input{
-	border:10%
+/* ログインボックスのスタイル */
+.loginBox {
+  width: 300px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
-h1{
-	text-align: center;
+/* フォーム内の入力欄とボタンの整形 */
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-button{
-	
+input[type="text"],
+input[type="password"] {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 14px;
 }
 
-header{
-    
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(113, 113, 115);
-}
-
-body{
-	justify-content: center;
-	background-color: rgb(192, 192, 192);
-}
-input{
-	border-style:solid;
-}
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(0, 0, 0);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-
-caption {
-  caption-side: bottom;
+/* ログインボタン */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
   padding: 10px;
-  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button{
+	background-color: #007bff;
+	  color: white;
+	  border: none;
+	  padding: 10px;
+	  font-size: 14px;
+	  cursor: pointer;
+	  border-radius: 4px;
 }
 
-thead,
-tfoot {
-  background-color: rgb(228 240 245);
-}
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    unicode-bidi: isolate;
-    border-color: rgb(0, 0, 0);
-}
-th,
-td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
-}
-
-td:last-of-type {
-  text-align: center;
-}
-
-tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
-}
