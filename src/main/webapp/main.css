@@ -8,10 +8,13 @@ body {
   height: 100vh;
   margin: 0;
 }
-
+div{
+	display: flex;
+	  flex-direction: column;
+}
 /* ログインボックスのスタイル */
 .ContentBox {
-  width: 300px;
+  width: 500px;
   background-color: white;
   padding: 30px;
   border-radius: 8px;
@@ -50,5 +53,9 @@ button{
 	  font-size: 14px;
 	  cursor: pointer;
 	  border-radius: 4px;
+	  margin: 5px;
+}
+h1{
+	text-align: center;
 }
 

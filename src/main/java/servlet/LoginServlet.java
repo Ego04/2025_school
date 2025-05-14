@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute("password", sPassword);
 			
 			
-			if(sId.length() !=0) {
+			if(sId.length() !=0 && sPassword.length() != 0) {
 				nextForward = "WEB-INF/jsp/login.jsp";
 				
 			}
