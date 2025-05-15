@@ -13,21 +13,11 @@ import jakarta.servlet.http.HttpSession;
 /**
  * Servlet implementation class StaffMenuServlet
  */
-@WebServlet("/StaffMenuServlet")
+@WebServlet("/StaffMenu")
 public class StaffMenuServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public StaffMenuServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
+    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		
@@ -46,7 +36,7 @@ public class StaffMenuServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		HttpSession session = request.getSession();
+		/*HttpSession session = request.getSession();
 		
 		String staff = "reception";
 		staff = "docter";
@@ -55,7 +45,7 @@ public class StaffMenuServlet extends HttpServlet {
 		session.setAttribute("staff", staff);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/jsp/staffMenu.jsp");
-		dispatcher.forward(request, response);
+		dispatcher.forward(request, response);*/
 	}
 
 }
